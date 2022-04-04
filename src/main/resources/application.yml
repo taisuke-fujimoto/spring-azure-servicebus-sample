@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    azure:
+      servicebus:
+        connection-string: ${SERVICEBUS_CONNECTION_STRING}
+
+logging:
+  level:
+    sample: DEBUG
+    org.springframework.web: DEBUG
+    com.azure: DEBUG
